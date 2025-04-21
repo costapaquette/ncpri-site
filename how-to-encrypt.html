@@ -1,50 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Submit a Report – NCPRI</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>How to Encrypt Using PGP – NCPRI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 font-sans text-gray-800">
+  <div class="max-w-2xl mx-auto p-6 mt-10 bg-white shadow-md rounded-xl">
+    <h1 class="text-3xl font-bold text-indigo-700 mb-4">🔐 How to Encrypt Your Report Using PGP</h1>
+    <p class="mb-6 text-sm text-gray-700">
+      This guide explains how to encrypt your email securely before sending your submission to <strong>ncpri@protonmail.com</strong>. Encryption protects your identity and content from surveillance or interception.
+    </p>
 
-  <div class="max-w-2xl mx-auto p-6 mt-12 bg-white shadow-md rounded-xl">
-    <h1 class="text-3xl font-bold text-indigo-700 mb-4">📨 NCPRI Submission Portal</h1>
-    <p class="mb-6">Help us track PhD injustices, supervisor misconduct, delayed FOI responses, and systemic problems. Choose a submission method below:</p>
+    <h2 class="text-xl font-semibold text-indigo-700 mt-6 mb-2">Step 1: Download Our Public Key</h2>
+    <p class="text-sm mb-4">Click here to download: <a href="public-key.asc" class="text-indigo-600 underline">public-key.asc</a></p>
 
-    <!-- 🔓 PUBLIC SUBMISSION -->
-    <div class="mb-8">
-      <h2 class="text-xl font-semibold mb-2">🔓 Public Submission</h2>
-      <p class="mb-3">Your report will appear publicly on GitHub as an open issue (not anonymous):</p>
-      <a href="https://github.com/costapaquette/ncpri-site/issues/new?template=submission.md"
-         class="bg-indigo-700 text-white font-semibold px-6 py-2 rounded-lg hover:bg-indigo-800 transition inline-block"
-         target="_blank">
-        Submit Publicly via GitHub
-      </a>
-    </div>
+    <h2 class="text-xl font-semibold text-indigo-700 mt-6 mb-2">Step 2: Use a Free PGP Tool</h2>
+    <p class="text-sm mb-4">We recommend one of the following tools:</p>
+    <ul class="list-disc ml-6 text-sm mb-4">
+      <li><strong><a href="https://proton.me/mail" target="_blank" class="text-indigo-600 underline">ProtonMail</a></strong> (automatic encryption when sending to another ProtonMail address)</li>
+      <li><strong><a href="https://encrypt.to/" target="_blank" class="text-indigo-600 underline">Encrypt.to</a></strong> (paste message + public key, get encrypted text)</li>
+      <li><strong><a href="https://pgptool.github.io/" target="_blank" class="text-indigo-600 underline">PGPTool</a></strong> (downloadable GUI app for Windows/Linux/Mac)</li>
+    </ul>
 
-    <!-- 🔐 PRIVATE SUBMISSION -->
-    <div class="mb-8">
-      <h2 class="text-xl font-semibold mb-2">🔐 Private & Encrypted Submission (Recommended)</h2>
-      <p class="mb-3">Use PGP encryption to email your report securely and anonymously to NCPRI staff:</p>
-      <ul class="list-disc ml-6 text-sm mb-4">
-        <li>Email your encrypted message to: <strong>ncpri@protonmail.com</strong></li>
-        <li>📥 Download our verified ProtonMail public encryption key: <a href="public-key.asc" class="text-indigo-600 underline">public-key.asc</a></li>
-        <li>💬 Need help? <a href="how-to-encrypt.html" class="text-indigo-600 underline">How to encrypt using PGP</a></li>
-      </ul>
-      <p class="text-sm text-red-500">Never send sensitive data unencrypted. Do not use university networks or accounts.</p>
-    </div>
+    <h2 class="text-xl font-semibold text-indigo-700 mt-6 mb-2">Step 3: Compose Your Message</h2>
+    <p class="text-sm mb-4">Write your full report, including details and attachments if needed. Then encrypt it using our public key.</p>
 
-    <!-- 🚫 UNSAFE FORM WARNING -->
-    <div class="border-l-4 border-red-500 bg-red-50 p-4 text-sm text-red-700">
-      <strong>⚠️ Do not use unsecured web forms.</strong> They are unreliable and do not offer end-to-end protection. Use encryption instead.
-    </div>
+    <h2 class="text-xl font-semibold text-indigo-700 mt-6 mb-2">Step 4: Send Encrypted Email</h2>
+    <p class="text-sm mb-4">Send your encrypted message to <strong>ncpri@protonmail.com</strong>. We will only be able to read it using our matching private key.</p>
 
-    <p class="text-xs text-gray-500 mt-8">
-      This submission portal is operated by NCPRI – the National Council for PhD Candidate Protection & Research Integrity.
+    <h2 class="text-xl font-semibold text-red-600 mt-6 mb-2">Important Warnings</h2>
+    <ul class="list-disc ml-6 text-sm text-red-600 mb-4">
+      <li>⚠️ Never send sensitive content unencrypted</li>
+      <li>⚠️ Do not use university Wi-Fi or email accounts</li>
+      <li>⚠️ Always verify that you are encrypting using the correct public key</li>
+    </ul>
+
+    <p class="text-xs text-gray-500 mt-6">
+      This guide is part of the NCPRI Secure Portal for confidential whistleblowing and academic protection.
     </p>
   </div>
-
 </body>
 </html>
+
