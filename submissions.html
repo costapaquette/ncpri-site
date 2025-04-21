@@ -3,103 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <title>Submit a Report – NCPRI</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background: #f8fafc;
-      padding: 2em;
-    }
-    h1 {
-      color: #4338ca;
-    }
-    form {
-      background: #fff;
-      padding: 1.5em;
-      border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.05);
-      max-width: 600px;
-    }
-    input, textarea, select {
-      width: 100%;
-      padding: 0.75em;
-      margin-top: 0.5em;
-      margin-bottom: 1em;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-    }
-    input[type="submit"] {
-      background-color: #4f46e5;
-      color: white;
-      font-weight: bold;
-      border: none;
-      cursor: pointer;
-    }
-    .section {
-      margin-bottom: 2em;
-    }
-    a.button {
-      display: inline-block;
-      padding: 0.75em 1.5em;
-      background-color: #4f46e5;
-      color: white;
-      border-radius: 8px;
-      font-weight: bold;
-      text-decoration: none;
-      margin-top: 1em;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-50 font-sans text-gray-800">
 
-  <h1>Submit a Report</h1>
+  <div class="max-w-2xl mx-auto p-6 mt-12 bg-white shadow-md rounded-xl">
+    <h1 class="text-3xl font-bold text-indigo-700 mb-4">📨 NCPRI Submission Portal</h1>
+    <p class="mb-6">Help us track PhD injustices, supervisor misconduct, delayed FOI responses, and systemic problems. Choose a submission method below:</p>
 
-  <p>Help us track PhD injustices, supervisor misconduct, delayed FOI responses, and systemic problems. Choose a submission method:</p>
+    <!-- 🔓 PUBLIC SUBMISSION -->
+    <div class="mb-8">
+      <h2 class="text-xl font-semibold mb-2">🔓 Public Submission</h2>
+      <p class="mb-3">Your report will appear publicly on GitHub as an open issue (not anonymous):</p>
+      <a href="https://github.com/costapaquette/ncpri-site/issues/new?template=submission.md"
+         class="bg-indigo-700 text-white font-semibold px-6 py-2 rounded-lg hover:bg-indigo-800 transition inline-block"
+         target="_blank">
+        Submit Publicly via GitHub
+      </a>
+    </div>
 
-  <!-- 🔓 PUBLIC SUBMISSION -->
-  <div class="section">
-    <h2>🔓 Public Submission</h2>
-    <p>Your report will appear immediately and publicly as a GitHub Issue:</p>
-    <a href="https://github.com/costapaquette/ncpri-site/issues/new?template=submission.md" class="button" target="_blank">
-      Submit Publicly via GitHub
-    </a>
-  </div>
+    <!-- 🔐 PRIVATE SUBMISSION -->
+    <div class="mb-8">
+      <h2 class="text-xl font-semibold mb-2">🔐 Private & Encrypted Submission (Recommended)</h2>
+      <p class="mb-3">Use PGP encryption to email your report securely and anonymously to NCPRI staff:</p>
+      <ul class="list-disc ml-6 text-sm mb-4">
+        <li>Email your encrypted message to: <strong>costa@protonmail.com</strong></li>
+        <li>Download the public key: <a href="public-key.asc" class="text-indigo-600 underline">costa_arvanitis_public_key.asc</a></li>
+        <li>Need help? <a href="how-to-encrypt.html" class="text-indigo-600 underline">How to encrypt using PGP</a></li>
+      </ul>
+      <p class="text-sm text-red-500">Never email sensitive data unencrypted. Do not use university devices or networks for whistleblowing.</p>
+    </div>
 
-  <!-- 🔒 PRIVATE SUBMISSION -->
-  <div class="section">
-    <h2>🔒 Private Submission</h2>
-    <p>Submit confidentially. This form sends your info directly to NCPRI staff. You will be manually contacted if follow-up is required.</p>
+    <!-- 🚫 UNSAFE FORM WARNING -->
+    <div class="border-l-4 border-red-500 bg-red-50 p-4 text-sm text-red-700">
+      <strong>⚠️ Do not use unsecured web forms.</strong> They are unreliable and do not offer end-to-end protection. Use encryption instead.
+    </div>
 
-    <form action="mailto:costa.arvanitis@gmail.com" method="POST" enctype="text/plain">
-      <label>Your Name (Optional)</label>
-      <input type="text" name="name">
-
-      <label>Your Role</label>
-      <select name="role">
-        <option value="PhD Candidate">Current PhD Candidate</option>
-        <option value="Graduate">Graduate</option>
-        <option value="Staff">Staff Witness</option>
-        <option value="Ally">Ally / Advocate</option>
-        <option value="Prefer not to say">Prefer not to say</option>
-      </select>
-
-      <label>Institution (Optional)</label>
-      <input type="text" name="institution">
-
-      <label>Do you want to remain anonymous?</label>
-      <select name="anon">
-        <option value="Yes">Yes, keep me anonymous</option>
-        <option value="No">No, I consent to being named</option>
-      </select>
-
-      <label>What happened?</label>
-      <textarea name="incident" rows="6" placeholder="Describe what happened, including delays, misconduct, or breaches."></textarea>
-
-      <label>Evidence (optional)</label>
-      <textarea name="evidence" rows="4" placeholder="Paste links to evidence, or describe what you have. You can also attach files via email follow-up."></textarea>
-
-      <input type="submit" value="Submit Privately">
-    </form>
+    <p class="text-xs text-gray-500 mt-8">
+      This submission portal is operated by NCPRI – the National Council for PhD Candidate Protection & Research Integrity.
+    </p>
   </div>
 
 </body>
 </html>
+
