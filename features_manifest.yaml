@@ -1,0 +1,29 @@
+- id: foi-deadline-tracker
+  title: FOI Deadline Tracker
+  icon: 📂
+  description: Never miss a statutory response window again.
+
+- id: evidence-ledger
+  title: Evidence Ledger
+  icon: 📒
+  description: Every email, delay, and decision recorded publicly.
+
+- id: volunteer-matcher
+  title: Volunteer Matcher
+  icon: 🤝
+  description: Pair candidates with mentors & researchers.
+
+- id: policy-dashboard
+  title: Policy Dashboard
+  icon: 📊
+  description: Visual stats for extensions, CASP breaches, more.
+
+- id: global-access
+  title: Global Access
+  icon: 🌎
+  description: Timezone & multilingual support coming soon.
+
+- id: open-source
+  title: Open Source by Design
+  icon: 🛠️
+  description: Built with full transparency.
