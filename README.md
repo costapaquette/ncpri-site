@@ -9,7 +9,7 @@ We are building the world’s first **candidate-first research integrity watchdo
 ## 🔗 Live Resources
 
 - 🌐 **Main Website** → [ncpri.netlify.app](https://ncpri.netlify.app)
-- 🔐 **Secure Submission Portal** → [Submit confidentially](https://ncpri.netlify.app/submit)
+- 🔐 **Secure Submission Portal** →  https://lnkd.in/gkE62vdu
 - 📂 **Public LinkedIn Archive** → [`/posts`](https://github.com/costapaquette/ncpri-site/tree/main/posts)
 
 ---
