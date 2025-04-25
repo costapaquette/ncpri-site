@@ -29,3 +29,4 @@ If you’ve ever felt the walls close in during your PhD…
  If you believe students are more than statistics —
 Then you’re already part of this.
 The gatekeepers had their chance. Now it’s our turn.
+![Uploading image.png…]()
