@@ -15,3 +15,4 @@ Or submit publicly via GitHub:
  → https://lnkd.in/gBWu_gzW
 🧠 Encryption protects your identity, your evidence, and your story.
  Let’s build the world’s first open oversight system — for candidates, by candidates.
+![image](https://github.com/user-attachments/assets/609b04d4-1d97-4234-8033-d350d0440bc7)
