@@ -5,4 +5,6 @@ link: https://www.linkedin.com/posts/costa-arvanitis-913244123_surviving-a-chaot
 tags: [NCPRI]
 ---
 
-*_(Full body to be pasted here)_*
+*Surviving a Chaotic PhD: A Sarcastic How-To Guide
+
+Sometimes you start a PhD with the best intentions--only to run into a storm of abandoned projects, delayed funding, and indifferent supervisors. Here's a set of "helpful" tips, each beginning with a hopeful tone and then plunging into the cold, hard truth when universities fail you in spectacular fashion.
