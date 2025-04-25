@@ -19,3 +19,4 @@ Still want to finish?
 Congrats — you’re the reason the **NCPRI** exists.
 
 Let’s change the system so students don’t just survive. They thrive.
+![image](https://github.com/user-attachments/assets/fa07b11e-95d4-4b41-a206-1cd3a2c8dfd9)
