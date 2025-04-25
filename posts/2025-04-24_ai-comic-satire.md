@@ -13,3 +13,4 @@ Two students eating pizza
 A cat
 🤦🏼‍♂️ “I just wanted a classroom panel… not an undergrad Netflix pilot.”
 The AI comic revolution may be here... but it still can’t draw a door.
+![Uploading image.png…]()
