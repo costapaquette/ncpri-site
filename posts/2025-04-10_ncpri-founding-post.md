@@ -9,4 +9,4 @@ The National Council for PhD Candidate Protection & Research Integrity (NCPRI) i
 4. Facilitating Access to Peer-Reviewed Journals: In situations where candidates face disputes or administrative challenges that restrict their access to necessary resources, NCPRI proposes establishing agreements with academic publishers or with universities. These agreements would grant affected students access to peer-reviewed journals, ensuring uninterrupted progress in their research endeavours.​
 Through these initiatives, NCPRI aims to foster a transparent, supportive, and equitable environment for PhD candidates, empowering them to navigate their research careers with confidence and integrity.
 
-https://www.linkedin.com/in/costa-arvanitis-913244123/recent-activity/all/
+https://www.linkedin.com/posts/costa-arvanitis-913244123_the-national-council-for-phd-candidate-activity-7315148023817293824-WNAO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB54LB8BmgImztXtC_ZfMbHR-skLvI7Ow_c
