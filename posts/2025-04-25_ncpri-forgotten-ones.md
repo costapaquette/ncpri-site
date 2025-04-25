@@ -5,5 +5,4 @@ link: https://www.linkedin.com/posts/costa-arvanitis-913244123_phdprotection-rea
 tags: [NCPRI]
 ---
 
-*(TODO: paste full body here)*
-
+NCPRI exists to remember ghosted, erased PhD candidates. We write history in public. We don’t leave our own behind.

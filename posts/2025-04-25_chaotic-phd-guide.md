@@ -5,5 +5,4 @@ link: https://www.linkedin.com/posts/costa-arvanitis-913244123_surviving-a-chaot
 tags: [NCPRI]
 ---
 
-*(TODO: paste full body here)*
-
+A humorous how-to list of exactly what *not* to do when dealing with academic institutions that prefer silence over substance. The sarcasm runs thick as molasses, yet it drips with truth PhD candidates know too well.
