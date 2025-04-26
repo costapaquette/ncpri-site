@@ -10,7 +10,9 @@ This letter outlines the failure of university student unions to protect student
 - Give students a choice: Union or NCPRI
 - Launch a protected, transparent student defense fund
 - Build an international advocacy body from the ground up
-
+<p align="center">
+<img src="/posts/git_lifejacket.png" width="400px">
+</p>
 **For the students. By the students. Without compromise.**
 
 ---
